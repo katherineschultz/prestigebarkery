@@ -1,0 +1,135 @@
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+
+body {
+  background: black;
+}
+
+.topbox {
+    background-color: black;
+    width: 900px;
+    height: 140px;
+    -webkit-transform: rotate( 10deg );
+    -moz-transform: rotate( 10deg );
+    -ms-transform: rotate( 10deg );
+    -o-transform: rotate( 10deg );
+    transform: rotate( 10deg );
+    margin:0 auto;
+}
+
+.heading {
+    background-color: black;
+    color: #CE94FF;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 242px;
+    height: 110px;
+}
+
+.heading2 {
+    font-size: 100px;
+}
+
+.content {
+    background-color: white;
+    width: 780px;
+    margin: 0 auto;
+    z-index: -1;
+    position: relative;
+    top: -45px;
+    border-radius: 2px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.barkery {
+    color: #5D288A;
+}
+
+.daycare {
+    color: #11572B;
+    -webkit-transform: rotate( 10deg );
+    -moz-transform: rotate( 10deg );
+    -ms-transform: rotate( 10deg );
+    -o-transform: rotate( 10deg );
+    transform: rotate( 10deg );
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+
+.photography {
+    color: #962484;
+    -webkit-transform: rotate( 10deg );
+    -moz-transform: rotate( 10deg );
+    -ms-transform: rotate( 10deg );
+    -o-transform: rotate( 10deg );
+    transform: rotate( 10deg );
+    position: relative;
+    top: 42px;
+    left: 25px;
+}
+
+.parties {
+    color: #1F65A3;
+    -webkit-transform: rotate( 10deg );
+    -moz-transform: rotate( 10deg );
+    -ms-transform: rotate( 10deg );
+    -o-transform: rotate( 10deg );
+    transform: rotate( 10deg );
+    position: relative;
+    top: 73px;
+    left: 38px;
+}
+
+.grooming {
+    color: #242496;
+    -webkit-transform: rotate( 10deg );
+    -moz-transform: rotate( 10deg );
+    -ms-transform: rotate( 10deg );
+    -o-transform: rotate( 10deg );
+    transform: rotate( 10deg );
+    position: relative;
+    top: 98px;
+    left: 50px;
+}
+
+.contact {
+    color: #962484;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.about {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 20px 10px 10px;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+
+  }
+}
